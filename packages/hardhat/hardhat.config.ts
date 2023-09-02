@@ -92,6 +92,11 @@ const config: HardhatUserConfig = {
       accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
       chainId: 7001,
     },
+    goerli: {
+      url: process.env.GOERLIRPCURL || "",
+      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
+      chainId: 5,
+    }
   },
   etherscan: {
     apiKey: {
