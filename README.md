@@ -9,6 +9,9 @@
 ## Additional Sponsors
 
 - @Linea: We used Web3auth to provide a Google OAuth social login experience for wallet creation.
+- @Axelar
+  - Positive experience: we had a generally positive experience integrating with Axelar GMP! The document and on-site help was solid.
+  - Negative experience: the example code for the Axelar General Message Passing documentation didn’t work out of the box. We had to use Remix IDE and reverse engineer from the contract how to construct the calldata payload. 
 
 Dinosaur - AKMU
 
