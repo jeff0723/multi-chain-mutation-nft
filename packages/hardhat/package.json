@@ -9,7 +9,6 @@
     "@axelar-network/axelarjs-sdk": "^0.13.6",
     "@manifoldxyz/creator-core-solidity": "^3.0.0",
     "@nomicfoundation/hardhat-chai-matchers": "^2.0.1",
-    "@nomicfoundation/hardhat-ethers": "^3.0.4",
     "@nomicfoundation/hardhat-foundry": "^1.0.2",
     "@nomicfoundation/hardhat-network-helpers": "^1.0.8",
     "@nomicfoundation/hardhat-toolbox": "^3.0.0",
@@ -27,7 +26,6 @@
     "chai": "^4.3.7",
     "config": "^3.3.9",
     "dotenv": "^16.3.1",
-    "ethers": "^5.6.2",
     "hardhat": "^2.17.0",
     "hardhat-contract-sizer": "^2.10.0",
     "hardhat-deploy": "^0.11.34",
@@ -44,6 +42,7 @@
     "accounts": "hardhat accounts",
     "build": "rm -rf artifacts && npx hardhat clean && npx hardhat compile",
     "compile": "hardhat compile",
+    "execute": "node scripts/runExecute",
     "deploy": "node scripts/runDeploy",
     "start": "node scripts/runStart",
     "setup": "node scripts/runSetupEnv",
@@ -57,7 +56,9 @@
     "console": "hardhat console"
   },
   "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.4",
     "@types/dotenv": "^8.2.0",
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "ethers": "^5.7.2"
   }
 }

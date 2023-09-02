@@ -3,6 +3,7 @@ import "@nomicfoundation/hardhat-toolbox";
 import "@nomicfoundation/hardhat-foundry";
 import "hardhat-deploy";
 import "hardhat-contract-sizer";
+import "@nomicfoundation/hardhat-ethers";
 
 import * as dotenv from "dotenv";
 dotenv.config();

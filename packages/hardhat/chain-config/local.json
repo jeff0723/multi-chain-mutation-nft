@@ -68,5 +68,213 @@
     "rpc": "http://localhost:8500/4",
     "tokenName": "Matic",
     "tokenSymbol": "MATIC"
+  },
+  {
+    "name": "goerli",
+    "chainId": 5,
+    "gateway": "0xe432150cce91c13a887f7D836923d5597adD8E31",
+    "gasService": "0xbE406F0189A0B4cf3A05C286473D23791Dd44Cc6",
+    "constAddressDeployer": "0x69aeB7Dc4f2A86873Dae8D753DE89326Cf90a77a",
+    "create3Deployer": "0x783E7717fD4592814614aFC47ee92568a495Ce0B",
+    "tokens": {
+      "aUSDC": "aUSDC"
+    },
+    "rpc": "https://eth-goerli.g.alchemy.com/v2/V2ELp72FTYlizpJI24ife7alIJFsKt7f",
+    "tokenName": "OP",
+    "tokenSymbol": "OP",
+    "AxelarGasService": {
+      "address": "0xbE406F0189A0B4cf3A05C286473D23791Dd44Cc6"
+    },
+    "contract": {
+      "abi": [
+        "constructor(address gateway_, address gasReceiver)",
+        "error InvalidAddress()",
+        "error NotApprovedByGateway()",
+        "event Approval(address indexed owner, address indexed approved, uint256 indexed tokenId)",
+        "event ApprovalForAll(address indexed owner, address indexed operator, bool approved)",
+        "event BatchMetadataUpdate(uint256 _fromTokenId, uint256 _toTokenId)",
+        "event MetadataUpdate(uint256 _tokenId)",
+        "event OwnershipTransferred(address indexed previousOwner, address indexed newOwner)",
+        "event Transfer(address indexed from, address indexed to, uint256 indexed tokenId)",
+        "function approve(address to, uint256 tokenId)",
+        "function balanceOf(address owner) view returns (uint256)",
+        "function execute(bytes32 commandId, string sourceChain, string sourceAddress, bytes payload)",
+        "function executeWithToken(bytes32 commandId, string sourceChain, string sourceAddress, bytes payload, string tokenSymbol, uint256 amount)",
+        "function gasService() view returns (address)",
+        "function gateway() view returns (address)",
+        "function getApproved(uint256 tokenId) view returns (address)",
+        "function isApprovedForAll(address owner, address operator) view returns (bool)",
+        "function name() view returns (string)",
+        "function owner() view returns (address)",
+        "function ownerOf(uint256 tokenId) view returns (address)",
+        "function renounceOwnership()",
+        "function safeTransferFrom(address from, address to, uint256 tokenId)",
+        "function safeTransferFrom(address from, address to, uint256 tokenId, bytes data)",
+        "function setApprovalForAll(address operator, bool approved)",
+        "function supportsInterface(bytes4 interfaceId) view returns (bool)",
+        "function symbol() view returns (string)",
+        "function tokenIdCounter() view returns (uint256)",
+        "function tokenURI(uint256 tokenId) view returns (string)",
+        "function transferFrom(address from, address to, uint256 tokenId)",
+        "function transferOwnership(address newOwner)"
+      ],
+      "address": "0xb4805Bc3cF2835498C410656176878b96eaAdDA8"
+    }
+  },
+  {
+    "name": "optimism",
+    "chainId": 420,
+    "gateway": "0xe432150cce91c13a887f7D836923d5597adD8E31",
+    "gasService": "0xbE406F0189A0B4cf3A05C286473D23791Dd44Cc6",
+    "constAddressDeployer": "0x69aeB7Dc4f2A86873Dae8D753DE89326Cf90a77a",
+    "create3Deployer": "0x783E7717fD4592814614aFC47ee92568a495Ce0B",
+    "tokens": {
+      "aUSDC": "aUSDC"
+    },
+    "rpc": "https://opt-goerli.g.alchemy.com/v2/Na_hY5OhUJ6ZnHKyifjCXzGz9B4Po4z7",
+    "tokenName": "OP",
+    "tokenSymbol": "OP",
+    "AxelarGasService": {
+      "address": "0xbE406F0189A0B4cf3A05C286473D23791Dd44Cc6"
+    },
+    "contract": {
+      "abi": [
+        "constructor(address gateway_, address gasReceiver)",
+        "error InvalidAddress()",
+        "error NotApprovedByGateway()",
+        "event Approval(address indexed owner, address indexed approved, uint256 indexed tokenId)",
+        "event ApprovalForAll(address indexed owner, address indexed operator, bool approved)",
+        "event BatchMetadataUpdate(uint256 _fromTokenId, uint256 _toTokenId)",
+        "event MetadataUpdate(uint256 _tokenId)",
+        "event OwnershipTransferred(address indexed previousOwner, address indexed newOwner)",
+        "event Transfer(address indexed from, address indexed to, uint256 indexed tokenId)",
+        "function approve(address to, uint256 tokenId)",
+        "function balanceOf(address owner) view returns (uint256)",
+        "function execute(bytes32 commandId, string sourceChain, string sourceAddress, bytes payload)",
+        "function executeWithToken(bytes32 commandId, string sourceChain, string sourceAddress, bytes payload, string tokenSymbol, uint256 amount)",
+        "function gasService() view returns (address)",
+        "function gateway() view returns (address)",
+        "function getApproved(uint256 tokenId) view returns (address)",
+        "function isApprovedForAll(address owner, address operator) view returns (bool)",
+        "function name() view returns (string)",
+        "function owner() view returns (address)",
+        "function ownerOf(uint256 tokenId) view returns (address)",
+        "function renounceOwnership()",
+        "function safeTransferFrom(address from, address to, uint256 tokenId)",
+        "function safeTransferFrom(address from, address to, uint256 tokenId, bytes data)",
+        "function setApprovalForAll(address operator, bool approved)",
+        "function supportsInterface(bytes4 interfaceId) view returns (bool)",
+        "function symbol() view returns (string)",
+        "function tokenIdCounter() view returns (uint256)",
+        "function tokenURI(uint256 tokenId) view returns (string)",
+        "function transferFrom(address from, address to, uint256 tokenId)",
+        "function transferOwnership(address newOwner)"
+      ],
+      "address": "0xb4805Bc3cF2835498C410656176878b96eaAdDA8"
+    }
+  },
+  {
+    "name": "linea",
+    "chainId": 59140,
+    "gateway": "0xe432150cce91c13a887f7D836923d5597adD8E31",
+    "gasService": "0xbE406F0189A0B4cf3A05C286473D23791Dd44Cc6",
+    "constAddressDeployer": "0x69aeB7Dc4f2A86873Dae8D753DE89326Cf90a77a",
+    "create3Deployer": "0x783E7717fD4592814614aFC47ee92568a495Ce0B",
+    "tokens": {
+      "aUSDC": "aUSDC"
+    },
+    "rpc": "https://opt-goerli.g.alchemy.com/v2/Na_hY5OhUJ6ZnHKyifjCXzGz9B4Po4z7",
+    "tokenName": "Linea",
+    "tokenSymbol": "Linea",
+    "AxelarGasService": {
+      "address": "0xbE406F0189A0B4cf3A05C286473D23791Dd44Cc6"
+    },
+    "contract": {
+      "abi": [
+        "constructor(address gateway_, address gasReceiver)",
+        "error InvalidAddress()",
+        "error NotApprovedByGateway()",
+        "event Approval(address indexed owner, address indexed approved, uint256 indexed tokenId)",
+        "event ApprovalForAll(address indexed owner, address indexed operator, bool approved)",
+        "event BatchMetadataUpdate(uint256 _fromTokenId, uint256 _toTokenId)",
+        "event MetadataUpdate(uint256 _tokenId)",
+        "event OwnershipTransferred(address indexed previousOwner, address indexed newOwner)",
+        "event Transfer(address indexed from, address indexed to, uint256 indexed tokenId)",
+        "function approve(address to, uint256 tokenId)",
+        "function balanceOf(address owner) view returns (uint256)",
+        "function execute(bytes32 commandId, string sourceChain, string sourceAddress, bytes payload)",
+        "function executeWithToken(bytes32 commandId, string sourceChain, string sourceAddress, bytes payload, string tokenSymbol, uint256 amount)",
+        "function gasService() view returns (address)",
+        "function gateway() view returns (address)",
+        "function getApproved(uint256 tokenId) view returns (address)",
+        "function isApprovedForAll(address owner, address operator) view returns (bool)",
+        "function name() view returns (string)",
+        "function owner() view returns (address)",
+        "function ownerOf(uint256 tokenId) view returns (address)",
+        "function renounceOwnership()",
+        "function safeTransferFrom(address from, address to, uint256 tokenId)",
+        "function safeTransferFrom(address from, address to, uint256 tokenId, bytes data)",
+        "function setApprovalForAll(address operator, bool approved)",
+        "function supportsInterface(bytes4 interfaceId) view returns (bool)",
+        "function symbol() view returns (string)",
+        "function tokenIdCounter() view returns (uint256)",
+        "function tokenURI(uint256 tokenId) view returns (string)",
+        "function transferFrom(address from, address to, uint256 tokenId)",
+        "function transferOwnership(address newOwner)"
+      ],
+      "address": "0xb4805Bc3cF2835498C410656176878b96eaAdDA8"
+    }
+  },
+  {
+    "name": "polygon",
+    "chainId": 80001,
+    "gateway": "0xBF62ef1486468a6bd26Dd669C06db43dEd5B849B",
+    "gasService": "0xbE406F0189A0B4cf3A05C286473D23791Dd44Cc6",
+    "constAddressDeployer": "0x69aeB7Dc4f2A86873Dae8D753DE89326Cf90a77a",
+    "create3Deployer": "0x783E7717fD4592814614aFC47ee92568a495Ce0B",
+    "tokens": {
+      "aUSDC": "aUSDC"
+    },
+    "rpc": "https://polygon-mumbai.g.alchemy.com/v2/saPa6iDTct9JIFN6d7zeU0ukomm8lt0H",
+    "tokenName": "MATIC",
+    "tokenSymbol": "MATIC",
+    "AxelarGasService": {
+      "address": "0xbE406F0189A0B4cf3A05C286473D23791Dd44Cc6"
+    },
+    "contract": {
+      "abi": [
+        "constructor(address gateway_, address gasReceiver)",
+        "error InvalidAddress()",
+        "error NotApprovedByGateway()",
+        "event Approval(address indexed owner, address indexed approved, uint256 indexed tokenId)",
+        "event ApprovalForAll(address indexed owner, address indexed operator, bool approved)",
+        "event BatchMetadataUpdate(uint256 _fromTokenId, uint256 _toTokenId)",
+        "event MetadataUpdate(uint256 _tokenId)",
+        "event OwnershipTransferred(address indexed previousOwner, address indexed newOwner)",
+        "event Transfer(address indexed from, address indexed to, uint256 indexed tokenId)",
+        "function approve(address to, uint256 tokenId)",
+        "function balanceOf(address owner) view returns (uint256)",
+        "function execute(bytes32 commandId, string sourceChain, string sourceAddress, bytes payload)",
+        "function executeWithToken(bytes32 commandId, string sourceChain, string sourceAddress, bytes payload, string tokenSymbol, uint256 amount)",
+        "function gasService() view returns (address)",
+        "function gateway() view returns (address)",
+        "function getApproved(uint256 tokenId) view returns (address)",
+        "function isApprovedForAll(address owner, address operator) view returns (bool)",
+        "function name() view returns (string)",
+        "function owner() view returns (address)",
+        "function ownerOf(uint256 tokenId) view returns (address)",
+        "function renounceOwnership()",
+        "function safeTransferFrom(address from, address to, uint256 tokenId)",
+        "function safeTransferFrom(address from, address to, uint256 tokenId, bytes data)",
+        "function setApprovalForAll(address operator, bool approved)",
+        "function supportsInterface(bytes4 interfaceId) view returns (bool)",
+        "function symbol() view returns (string)",
+        "function tokenIdCounter() view returns (uint256)",
+        "function tokenURI(uint256 tokenId) view returns (string)",
+        "function transferFrom(address from, address to, uint256 tokenId)",
+        "function transferOwnership(address newOwner)"
+      ],
+      "address": "0xb4805Bc3cF2835498C410656176878b96eaAdDA8"
+    }
   }
 ]

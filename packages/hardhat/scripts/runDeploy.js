@@ -1,4 +1,10 @@
-const { deploy, checkEnv, getEVMChains, getExamplePath, getWallet } = require('./libs');
+const {
+  deploy,
+  checkEnv,
+  getEVMChains,
+  getExamplePath,
+  getWallet,
+} = require("./libs");
 
 const exampleName = process.argv[2];
 const env = process.argv[3];
