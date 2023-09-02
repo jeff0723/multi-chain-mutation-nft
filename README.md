@@ -1,6 +1,6 @@
 Dinosaur - AKMU
 
-[![Spotify](https://open.spotify.com/track/49KDK2ccYnOCYPeXfDO3YT?si=77027fa89c5f4561)
+[![Spotify](https://spotify-github-readme.vercel.app/api/spotify)](https://open.spotify.com/track/49KDK2ccYnOCYPeXfDO3YT?si=77027fa89c5f4561)
 
 나의 옛날 동네
 옛날 동네 반지하 빌라엔
