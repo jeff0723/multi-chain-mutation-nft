@@ -2,6 +2,7 @@ Dinosaur - AKMU
 
 [![Spotify](https://spotify-github-readme.vercel.app/api/spotify)](https://open.spotify.com/track/49KDK2ccYnOCYPeXfDO3YT?si=77027fa89c5f4561)
 
+```
 나의 옛날 동네
 옛날 동네 반지하 빌라엔
 네 가족 오순 도순
@@ -43,3 +44,5 @@ Dinosaur, dinosaur
 더 크게 소리 지를래
 더 크게 소리 지를래
 Dinosaur, dinosaur
+
+```
