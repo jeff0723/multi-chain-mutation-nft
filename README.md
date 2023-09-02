@@ -1,7 +1,9 @@
 ## Contract Address
 
-- https://goerli.lineascan.build/address/0x407d0108fb330c17e7039b7bcffb0910b585dec8
-- https://goerli-optimism.etherscan.io/address/0xb4805Bc3cF2835498C410656176878b96eaAdDA8
+- Mainnet Base Contract (Registry and mint): https://goerli.etherscan.io/address/0xf47b316aa3f0d6ec955d986aa6c44ba186e26762
+- Linea Hatchling: https://goerli.lineascan.build/address/0x407d0108fb330c17e7039b7bcffb0910b585dec8
+- Optimism Hatchling: https://goerli-optimism.etherscan.io/address/0xb4805Bc3cF2835498C410656176878b96eaAdDA8
+- 
 
 Dinosaur - AKMU
 
