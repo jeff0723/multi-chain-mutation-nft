@@ -27,19 +27,20 @@ const config: HardhatUserConfig = {
     hardhat: {
       allowUnlimitedContractSize: true,
       accounts: {
-        mnemonic: "test test test test test test test test test test test junk",
+        mnemonic:
+          "speak victory dove pulp trade link bench dose insane route ceiling hybrid",
       },
       chainId: 1337,
     },
     neontestnet: {
       url: process.env.NEONTESTNETRPCURL || "",
       accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
-      chainId: 245022926
+      chainId: 245022926,
     },
     mantletestnet: {
       url: process.env.MANTLETESTNETRPCURL || "",
       accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
-      chainId: 5001
+      chainId: 5001,
     },
     celotestnet: {
       url: process.env.CELOTESNETRPCURL || "",
@@ -73,8 +74,7 @@ const config: HardhatUserConfig = {
     },
     mainnet: {
       url: process.env.MAINNETRPCURL || "",
-      accounts:
-        process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
+      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
       chainId: 1,
     },
     linea: {
@@ -91,7 +91,7 @@ const config: HardhatUserConfig = {
       url: process.env.ZETACHAINRPCURL || "",
       accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
       chainId: 7001,
-    }
+    },
   },
   etherscan: {
     apiKey: {
@@ -108,7 +108,7 @@ const config: HardhatUserConfig = {
       aurora: process.env.AURORA_MAINNET_RPC || "",
       auroratestnet: process.env.AURORA_TESTNET_RPC || "",
     },
-  }
-}
+  },
+};
 
 export default config;
