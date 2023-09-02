@@ -1,10 +1,36 @@
 {
-  "name": "hardhat-project",
-  "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
-    "hardhat": "^2.17.2",
-    "@types/dotenv": "^8.2.0",
-    "dotenv": "^16.3.1"
+  "name": "contracts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.1",
+    "@nomicfoundation/hardhat-ethers": "^3.0.4",
+    "@nomicfoundation/hardhat-foundry": "^1.0.2",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.8",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@nomicfoundation/hardhat-verify": "^1.0.4",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@openzeppelin/contracts": "^4.9.2",
+    "@typechain/ethers-v6": "^0.4.2",
+    "@typechain/hardhat": "^8.0.2",
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "@types/node-fetch": "^2.6.4",
+    "@zetachain/networks": "^2.1.0",
+    "@zetachain/toolkit": "^1.0.2",
+    "chai": "^4.3.7",
+    "ethers": "^6.6.4",
+    "hardhat": "^2.17.0",
+    "hardhat-contract-sizer": "^2.10.0",
+    "hardhat-deploy": "^0.11.34",
+    "hardhat-gas-reporter": "^1.0.9",
+    "node-fetch": "2",
+    "solidity-coverage": "^0.8.4",
+    "solmate": "^6.1.0",
+    "ts-node": "^10.9.1",
+    "typechain": "^8.3.0",
+    "typescript": "^5.1.6"
   },
   "scripts": {
     "accounts": "hardhat accounts",
@@ -18,5 +44,9 @@
     "coverage": "hardhat coverage",
     "localhost": "hardhat node",
     "console": "hardhat console"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "dotenv": "^16.3.1"
   }
 }
