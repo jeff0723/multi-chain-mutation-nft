@@ -1,6 +1,7 @@
 ## Contract Address
 
 - https://goerli.lineascan.build/address/0x407d0108fb330c17e7039b7bcffb0910b585dec8
+- https://goerli-optimism.etherscan.io/address/0xb4805Bc3cF2835498C410656176878b96eaAdDA8
 
 Dinosaur - AKMU
 
