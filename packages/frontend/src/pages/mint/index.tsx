@@ -91,7 +91,7 @@ const MintPage = (props: Props) => {
             const _tokenUrls = await Promise.all(tokenUrlPromise)
             const tokenUrls = _tokenUrls.map(result => result.path)
 
-            await mintNFT(address, tokenUrls, [10000000000000000, 10000000000000000, 10000000000000000], ["optimism", "polygon", "linea"])
+            await mintNFT(address, tokenUrls, [10000000000000000, 10000000000000000, 10000000000000000], ["optimism", "polygonzk", "linea"])
             toast.success('successfully mint mutation nft')
             setStatus(Status.complete)
         } catch (err) {
