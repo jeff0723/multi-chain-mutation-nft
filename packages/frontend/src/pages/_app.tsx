@@ -13,7 +13,7 @@ import {
   ledgerWallet,
 } from '@rainbow-me/rainbowkit/wallets';
 import { configureChains, createConfig, WagmiConfig } from 'wagmi';
-import { mainnet, polygon, optimism, arbitrum, aurora, gnosis, localhost } from 'wagmi/chains';
+import { mainnet, polygon, optimism, arbitrum, aurora, gnosis, localhost, goerli } from 'wagmi/chains';
 import { publicProvider } from 'wagmi/providers/public';
 import { Toaster } from "react-hot-toast";
 const toastOptions = {
@@ -39,7 +39,7 @@ const toastOptions = {
 };
 
 const { chains, publicClient } = configureChains(
-  [gnosis, aurora, mainnet, polygon, optimism, arbitrum, localhost],
+  [goerli],
   [
     publicProvider()
   ]
@@ -48,13 +48,13 @@ const { chains, publicClient } = configureChains(
 const projectId = 'd70627db8863f52dd98dafa4550cf646';
 
 const { wallets } = getDefaultWallets({
-  appName: 'ZKAlpha',
+  appName: 'Dinosaur',
   projectId,
   chains,
 });
 
 const demoAppInfo = {
-  appName: 'ZKAlpha',
+  appName: 'Dinosaur',
 };
 
 const connectors = connectorsForWallets([
@@ -78,6 +78,8 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <WagmiConfig config={wagmiConfig}>
       <RainbowKitProvider theme={midnightTheme()} chains={chains} appInfo={demoAppInfo}>
+        <Toaster position="top-right" toastOptions={toastOptions} />
+
         <Component {...pageProps} />
       </RainbowKitProvider>
     </WagmiConfig>

@@ -9,27 +9,39 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@aws-sdk/lib-storage": "^3.405.0",
     "@headlessui/react": "^1.7.17",
     "@rainbow-me/rainbowkit": "^1.0.10",
+    "@react-hook/window-size": "^3.1.1",
     "@types/node": "20.5.8",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.15",
+    "cloudinary": "^1.40.0",
     "eslint": "8.48.0",
     "eslint-config-next": "13.4.19",
     "formidable": "^3.5.1",
+    "imgur-uploader": "^4.2.1",
     "ipfs-http-client": "^60.0.1",
+    "multer": "^1.4.5-lts.1",
     "next": "13.4.19",
+    "node-fetch": "^3.3.2",
+    "parse-multipart-data": "^1.5.0",
     "postcss": "8.4.29",
     "react": "18.2.0",
+    "react-confetti": "^6.1.0",
     "react-dom": "18.2.0",
     "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.10.1",
     "tailwindcss": "3.3.3",
     "typescript": "5.2.2",
+    "upload-js-full": "^2.21.0",
     "viem": "^1.9.5",
-    "wagmi": "^1.3.11"
+    "wagmi": "^1.3.11",
+    "web3.storage": "^4.5.5"
   },
   "devDependencies": {
-    "@types/formidable": "^3.4.2"
+    "@types/formidable": "^3.4.2",
+    "@types/multer": "^1.4.7"
   }
 }

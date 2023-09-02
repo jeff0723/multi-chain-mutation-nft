@@ -10,7 +10,7 @@ const Header = (props: Props) => {
         <div className='p-4 flex w-full justify-between'>
             <div className='font-bold text-[24px] cursor-pointer' onClick={() => {
                 router.push('/')
-            }}>Dinosaur</div>
+            }}>Mutation NFT</div>
             <ConnectButton />
         </div>
     )

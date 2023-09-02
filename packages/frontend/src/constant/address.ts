@@ -1,0 +1,1 @@
+export const DINOSAUR_ADDRESS = "0xb4805bc3cf2835498c410656176878b96eaadda8" as `0x${string}`
