@@ -4,9 +4,11 @@
 - Linea Hatchling: https://goerli.lineascan.build/address/0x407d0108fb330c17e7039b7bcffb0910b585dec8
 - Optimism Hatchling: https://goerli-optimism.etherscan.io/address/0xb4805Bc3cF2835498C410656176878b96eaAdDA8
 - Polygon ZKEVM Hatchling: https://testnet-zkevm.polygonscan.com/address/0xb4805bc3cf2835498c410656176878b96eaadda8
+- Taiko Testnet Hatchling: https://test.taikoscan.io/address/0xb4805Bc3cF2835498C410656176878b96eaAdDA8
 
 ## Additional Sponsors
-- @Linea: We used Web3auth to provide a Google OAuth social login experience for wallet creation. 
+
+- @Linea: We used Web3auth to provide a Google OAuth social login experience for wallet creation.
 
 Dinosaur - AKMU
 
