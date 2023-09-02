@@ -21,12 +21,9 @@
     "@types/chai": "^4.3.5",
     "@types/mocha": "^10.0.1",
     "@types/node-fetch": "^2.6.4",
-<<<<<<< HEAD
-=======
     "@zetachain/networks": "^2.1.0",
     "@zetachain/toolkit": "^1.0.2",
     "bip39": "^3.1.0",
->>>>>>> c9068666 (tina)
     "chai": "^4.3.7",
     "config": "^3.3.9",
     "dotenv": "^16.3.1",
