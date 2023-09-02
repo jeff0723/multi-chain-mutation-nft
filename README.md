@@ -6,13 +6,15 @@
 - Optimism Hatchling: https://goerli-optimism.etherscan.io/address/0xb4805Bc3cF2835498C410656176878b96eaAdDA8
 - Polygon ZKEVM Hatchling: https://testnet-zkevm.polygonscan.com/address/0xb4805bc3cf2835498c410656176878b96eaadda8
 - Taiko Testnet Hatchling: https://test.taikoscan.io/address/0xb4805Bc3cF2835498C410656176878b96eaAdDA8
+- Optimism Georli (Chainlink CCIP): https://goerli-optimism.etherscan.io/address/0xd5ef3698f188a95411ed5d38909549627e04e96c
+- ETH Sepolia (ETH Seploia -> Optimism Georli): https://sepolia.etherscan.io/tx/0x5fba5ae72bd0e0df6bc6951e5a5666724be2870c30c836547a2daf0eeca30bd9
 
 ## Additional Sponsors
 
 - @Linea: We used Web3auth to provide a Google OAuth social login experience for wallet creation.
 - @Axelar
   - Positive experience: we had a generally positive experience integrating with Axelar GMP! The document and on-site help was solid.
-  - Negative experience: the example code for the Axelar General Message Passing documentation didn’t work out of the box. We had to use Remix IDE and reverse engineer from the contract how to construct the calldata payload. 
+  - Negative experience: the example code for the Axelar General Message Passing documentation didn’t work out of the box. We had to use Remix IDE and reverse engineer from the contract how to construct the calldata payload.
 
 Dinosaur - AKMU
 
