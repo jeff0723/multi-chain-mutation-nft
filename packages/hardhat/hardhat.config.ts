@@ -62,6 +62,21 @@ const config: HardhatUserConfig = {
       accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
       chainId: 1313161555,
     },
+    polygontestnet: {
+      url: process.env.POLYGONTESTNETRPCURL || "",
+      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
+      chainId: 80001,
+    },
+    optestnet: {
+      url: process.env.OPTIMISMTESTNETRPCURL || "",
+      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
+      chainId: 420,
+    },
+    lineatestnet: {
+      url: process.env.LINEARPCURL || "",
+      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
+      chainId: 59140,
+    },
     polygonzkevm: {
       url: process.env.POLYGONZKEVMRPCURL || "",
       accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
@@ -96,7 +111,7 @@ const config: HardhatUserConfig = {
       url: process.env.GOERLIRPCURL || "",
       accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
       chainId: 5,
-    }
+    },
   },
   etherscan: {
     apiKey: {

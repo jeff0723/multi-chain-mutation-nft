@@ -3,7 +3,14 @@
 ```shell
 npm run setup
 npm run start # start the local hardhat node
-npm run deploy scripts/mainnet testnet --srcChain Ethereum
+
+# deploy contracts (remember to get faucet token)
+npm run deploy scripts/mainnet testnet --srcChain Ethereum # deploy to goerli
+npm run deploy scripts/op testnet --srcChain optimism
+npm run deploy scripts/linea testnet --srcChain linea
+
+# verify
+npx hardhat verify 0xb4805bc3cf2835498c410656176878b96eaadda8 0xe432150cce91c13a887f7D836923d5597adD8E31 0xbE406F0189A0B4cf3A05C286473D23791Dd44Cc6 --network goerli
 ```
 
 ## Contract Addresses
