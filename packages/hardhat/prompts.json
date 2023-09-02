@@ -1,4 +1,8 @@
 {
+  "mainnet": {
+    "prompt": "cypherpunk style, futuristic theme, ape, bored ape yacht club nft",
+    "negative_prompt": "naked, nude, boobs, tits, deformed, bikini, bra, underwear, vagina, pussy, nipples, nsfw, woman, human, girls"
+  },
   "optimism": {
     "prompt": "bored ape yacht club nft, holding a red apple, optimistic, exciting background",
     "negative_prompt": "naked, nude, boobs, tits, deformed, bikini, bra, underwear, vagina, pussy, nipples, nsfw, woman, human, girls"
