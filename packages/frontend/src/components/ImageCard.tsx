@@ -31,7 +31,9 @@ const ImageCard = ({
                         return;
                     }
                     if (!fetch_result) return
-                    const response = await fetch(fetch_result);
+                    const response = await fetch(fetch_result, {
+                        method: 'POST'
+                    });
 
                     if (!response.ok) {
                         throw new Error(`HTTP error! Status: ${response.status}`);
