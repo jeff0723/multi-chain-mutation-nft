@@ -1,3 +1,7 @@
+## Contract Address
+
+- https://goerli.lineascan.build/address/0x407d0108fb330c17e7039b7bcffb0910b585dec8
+
 Dinosaur - AKMU
 
 [![Spotify](https://spotify-github-readme.vercel.app/api/spotify)](https://open.spotify.com/track/49KDK2ccYnOCYPeXfDO3YT?si=77027fa89c5f4561)

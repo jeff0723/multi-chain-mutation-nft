@@ -17,12 +17,13 @@ async function main() {
   await tx.wait();
   console.log("tx", tx);
 
-  // 0xb4805bc3cf2835498c410656176878b96eaadda8
-  // 0xf47b316aa3f0d6ec955d986aa6c44ba186e26762
-  // ["tokenuri1", "tokenuri2", "tokenuri3", "tokenuri4"]
-  // [10000000000000000, 10000000000000000, 10000000000000000]
-  // ["optimism", "polygon", "linea"]
-  // 40000000000000000
+  // contract addr: 0xb4805bc3cf2835498c410656176878b96eaadda8
+  // function name: mintNFT
+  // param1: 0xf47b316aa3f0d6ec955d986aa6c44ba186e26762
+  // param2: ["tokenuri1", "tokenuri2", "tokenuri3", "tokenuri4"]
+  // param3: [10000000000000000, 10000000000000000, 10000000000000000]
+  // param4: ["optimism", "polygon", "linea"]
+  // msg.value: 40000000000000000
 }
 
 main();
